@@ -1,0 +1,368 @@
+{% extends "smartmin/base.html" %}
+-load i18n
+
+-block title
+
+  <div id='page-container' class='container'>
+      <div class='divPanel page-content'>
+        
+  <h2 style='text-align:center;margin-bottom:20px;'>
+    No Monthly Fees
+
+  </h2>
+  
+    <div class='teaser'>
+      
+        Every account includes 1,000 credits to get you started.
+
+      
+    </div>
+  
+  <div class='pricing-wrapper'>
+    <div id='saving-overlay'>
+      One Moment Please
+      <div>
+        <img style="margin-top: 20px" src="/sitestatic/images/loader-bars.gif" width="30" height="30">
+
+      </div>
+    </div>
+    
+    <div class='row bundles'>
+      
+        <div class='span3'>
+          <div class='bundle'>
+            <div class='bundle-size'>
+              <h3>1,000</h3>
+              <h6>
+                credits
+              </h6>
+            </div>
+            <div class='bundle-price'>
+              R20
+            </div>
+            <div class='bundle-per-credit'>
+              2.0&cent each
+            </div>
+            
+            <div class='bundle-per-credit'>
+              Freee USSD Application
+
+            </div>
+
+
+          </div>
+        </div>
+      
+        <div class='span3'>
+          <div class='bundle'>
+            <div class='bundle-size'>
+              <h3>2,500</h3>
+              <h6>
+                credits
+              </h6>
+            </div>
+            <div class='bundle-price'>
+              R40
+            </div>
+            <div class='bundle-per-credit'>
+              1.6&cent each
+
+            </div>
+            
+          </div>
+        </div>
+      
+        <div class='span3'>
+          <div class='bundle'>
+            <div class='bundle-size'>
+              <h3>10,000</h3>
+              <h6>
+                credits
+              </h6>
+            </div>
+            <div class='bundle-price'>
+              R140
+            </div>
+            <div class='bundle-per-credit'>
+              1.4&cent each
+
+            </div>
+            
+          </div>
+        </div>
+      
+        <div class='span3'>
+          <div class='bundle'>
+            <div class='bundle-size'>
+              <h3>20,000</h3>
+              <h6>
+                credits
+              </h6>
+            </div>
+            <div class='bundle-price'>
+              R250
+            </div>
+            <div class='bundle-per-credit'>
+              1.2&cent each
+
+            </div>
+            
+          </div>
+        </div>
+      
+      
+        <div class='span3'>
+          <div class='bundle'>
+            <div class='bundle-size'>
+              <h3>50,000</h3>
+              <h6>
+                credits
+              </h6>
+            </div>
+            <div class='bundle-price'>
+              $550
+            </div>
+            <div class='bundle-per-credit'>
+              1.1&cent each
+
+            </div>
+            
+          </div>
+        </div>
+      
+        <div class='span3'>
+          <div class='bundle'>
+            <div class='bundle-size'>
+              <h3>100,000</h3>
+              <h6>
+                credits
+              </h6>
+            </div>
+            <div class='bundle-price'>
+              R1,000
+            </div>
+            <div class='bundle-per-credit'>
+              1.0&cent each
+
+            </div>
+            
+          </div>
+        </div>
+      
+        <div class='span3'>
+          <div class='bundle'>
+            <div class='bundle-size'>
+              <h3>250,000</h3>
+              <h6>
+                credits
+              </h6>
+            </div>
+            <div class='bundle-price'>
+              R2,250
+            </div>
+            <div class='bundle-per-credit'>
+              0.9&cent each
+
+            </div>
+            
+          </div>
+        </div>
+      
+        <div class='span3'>
+          <div class='bundle'>
+            <div class='bundle-size'>
+              <h3>500,000</h3>
+              <h6>
+                credits
+              </h6>
+            </div>
+            <div class='bundle-price'>
+              R4,000
+            </div>
+            <div class='bundle-per-credit'>
+              0.8&cent each
+
+            </div>
+            
+          </div>
+        </div>
+      
+    </div>
+  </div>
+
+    <div class='offset2 span8'>
+    <div id='call-to-action'>
+      <div id='jumbotron' style='text-align:center;'>
+        <h2>
+          Get started today, no credit card required!
+        </h2>
+        <form action='https://rapidpro.io/lead/create/' method='POST'>
+          <input type='hidden' name='csrfmiddlewaretoken' value='5MUWCEOcTqlvXrV0AJhS9w5CULq58o4L' />
+          <fieldset>
+            <div class='control-group'>
+              <div class='controls'>
+                <nobr>
+                  <input class='controls' type='hidden' name='from_url' value='internal.internal_pricing' />
+                  <input class='controls' placeholder='Enter your email..' style='margin-bottom:0px; height: 28px;' type='text' name='email' />
+                  <button class='btn btn-success' type='submit'>
+                    Try it for Free
+                  </button>
+                  
+                </nobr>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class='row'>
+    <div class='span12 faq-header' style='text-align:center;'>
+      <h3>
+        Commonly Asked Questions
+      </h3>
+      <hr />
+
+    </div>
+  </div>
+
+  <div class='row'>
+    <div class='span6'>
+      <div class='faq'>
+        <div class='question'>
+          
+            How do I use RapidPro in my country?
+          
+        </div>
+        <div class='answer'>
+          
+            The most popular way to use RapidPro in most countries is by hooking it up to an Android phone. This is the
+            quickest and least expensive to get going. For most projects, this is all you will ever need. It's also possible
+            to take advantage of short codes, reverse billing, and even direct connections with local carriers.
+            We've put together a
+          
+          <a href='/deploy/'>guide for deploying  in your country</a>.
+
+        </div>
+      </div>
+      <div class='faq'>
+        <div class='question'>
+          How are credits counted?
+        </div>
+        <div class='answer'>
+          
+            Each message you send or receive uses one credit. You can add credits at any time and we'll only expire them
+            if you don't use them for a full year. We'll remind you when your balance gets low so you never miss a message.
+
+          
+        </div>
+      </div>
+    </div>
+    <div class='span6'>
+      <div class='faq'>
+        <div class='question'>
+          Can you help us build our sms application?
+        </div>
+        <div class='answer'>
+          
+            Absolutely! We want your organization to get the best possible results from using RapidPro.
+            <a href='javascript:void(0);' class='uv-send-message'>Send us a message</a>, we'd be happy to help you get started. For more challenging projects we also offer on-site visits,
+            contact us for details.
+
+          
+        </div>
+      </div>
+      <div class='faq'>
+        <div class='question'>
+          Can I pay without a credit card?
+        </div>
+        <div class='answer'>
+          
+            Smaller bundles must be paid for by credit card, but for bundles valued at $1,000 or greater we can accept
+            payments by wire transfer and provide invoices.
+
+          
+        </div>
+      </div>
+      <div class='faq'>
+        <div class='question'>
+          Do you offer bundles for even larger organizations?
+        </div>
+        <div class='answer'>
+          
+            Of course, just contact us and we can put together a package to suit your needs.
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='span12' style='text-align:center;'>
+      <hr />
+      <h3>
+        
+          Talk to us any time at join@rapidpro.io
+        
+      </h3>
+      <hr />
+
+    </div>
+  </div>
+  <div class='row'>
+    <div class='span12 features'>
+      <a name='features'></a>
+      <div class='row'>
+        <div class='span4'>
+          <h5>
+            Send and receive messages
+          </h5>
+          <h5>
+            Unlimited Flows
+          </h5>
+        </div>
+        <div class='span4'>
+          <h5>
+            Unlimited Contacts and Groups
+          </h5>
+          <h5>
+            Custom Contact Fields
+          </h5>
+        </div>
+        <div class='span4'>
+          <h5>
+            REST API for sending messages
+          </h5>
+          <h5>
+            Webhook API
+          </h5>
+        </div>
+        <div class='span4'>
+          <h5>
+            Real time Analytics
+          </h5>
+          <h5>
+            Customization of Graphs
+          </h5>
+        </div>
+        <div class='span4'>
+          <h5>
+            Twilio Integration
+          </h5>
+          <h5>
+            Email notifications
+          </h5>
+        </div>
+        <div class='span4'>
+          <h5>
+            Schedule SMS reminders
+          </h5>
+          <h5>
+            Android integration
+
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>

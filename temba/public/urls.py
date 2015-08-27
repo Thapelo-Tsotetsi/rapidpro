@@ -11,7 +11,7 @@ urlpatterns = patterns('',
                        (r'^sitemap\.xml$', 'django.contrib.sitemaps.views.sitemap',
                         {'sitemaps': sitemaps}, 'public.sitemaps'),
                        (r'^blog/$', Blog.as_view(), {}, 'public.public_blog'),
-
+                       (r'^pricing/$', Pricing.as_view(), {}, 'public.public_pricing'),
 
                        (r'^welcome/$', Welcome.as_view(), {}, 'public.public_welcome'),
                        (r'^deploy/$', Deploy.as_view(), {}, 'public.public_deploy'),

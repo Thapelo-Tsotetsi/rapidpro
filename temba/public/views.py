@@ -68,6 +68,8 @@ class Welcome(SmartTemplateView):
 class Privacy(SmartTemplateView):
     template_name = 'public/public_privacy.haml'
 
+class Pricing(SmartTemplateView):
+    template_name = 'public/public_pricing.haml'
 
 class LeadViewer(SmartCRUDL):
     actions = ('list',)
