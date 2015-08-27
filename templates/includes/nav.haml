@@ -79,6 +79,21 @@
   -else
     -block temba-login
 
+      %li.nav-pricing
+        %a.icon-nav-pricing{href:"{% ssl_url 'public.public_pricing' %}"}
+          .title
+            -trans "pricing"
+
+      %li.nav-blog
+        %a.icon-nav-blog{href:"{% ssl_url 'public.public_blog' %}"}
+          .title
+            -trans "blog"
+
+      %li.nav-docs
+        %a.icon-nav-docs{href:"{% ssl_url 'public.public_docs' %}"}
+          .title
+            -trans "docs"
+
       %li.nav-login
         %a.icon-nav-login{href:"{% ssl_url 'users.user_check_login' %}"}
           .title
