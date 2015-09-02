@@ -33,6 +33,16 @@
             position: relative;
           }
         }
+        .container {
+            width: 100%;
+        }
+        .span-full-width12{
+            width:100%;
+        }
+        .row {
+            width:100%;
+            padding-right: 50px 50px;
+        }
     {% endlessblock %}
 
 -block post-header
@@ -45,7 +55,7 @@
               {{ brand.description }}
 
       .row
-        .span12
+        .span-full-width12
           #lead-form
             %form{action:'{% ssl_url "public.lead_create" %}', method:'POST'}
               -csrf_token
